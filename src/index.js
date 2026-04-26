@@ -1,9 +1,8 @@
-const dotenv = require('dotenv');
-dotenv.config()
-
 const express = require('express');
-const sequelize = require('./src/config/database.js');
+const dotenv = require('dotenv');
+const sequelize = require('./config/database.js');
 
+dotenv.config()
 
 const app = express()
 
